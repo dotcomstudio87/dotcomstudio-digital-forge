@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Globe, ShoppingCart, Wrench, PenTool } from 'lucide-react';
+import { Globe, PenTool, Wrench, Smartphone } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const services = [
@@ -17,10 +17,10 @@ const services = [
     features: ["Alta conversão", "Integração com ferramentas", "A/B Testing"]
   },
   {
-    icon: ShoppingCart,
-    title: "E-commerces",
-    description: "Lojas virtuais completas para vender seus produtos online com segurança e eficiência.",
-    features: ["Pagamento seguro", "Gestão de estoque", "Relatórios de vendas"]
+    icon: Smartphone,
+    title: "Sites Responsivos",
+    description: "Sites que se adaptam perfeitamente a todos os dispositivos, oferecendo a melhor experiência em qualquer tela.",
+    features: ["Mobile-first", "Design adaptável", "Performance otimizada"]
   },
   {
     icon: Wrench,

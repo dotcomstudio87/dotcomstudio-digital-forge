@@ -9,10 +9,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">DS</span>
-              </div>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="/lovable-uploads/6c98830e-bba2-47cb-bb20-8342df7b6883.png" 
+                alt="DotcomStudio Logo" 
+                className="w-10 h-10 object-contain"
+              />
               <span className="text-xl font-bold text-white">DotcomStudio</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md leading-relaxed">
@@ -20,7 +22,7 @@ const Footer = () => {
               Desenvolvemos sites profissionais que vendem, conectam e impressionam.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-cyan-500 transition-colors">
+              <a href="https://instagram.com/dotcomstudio" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-cyan-500 transition-colors">
                 <Instagram className="w-5 h-5 text-gray-400 hover:text-white" />
               </a>
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-cyan-500 transition-colors">
