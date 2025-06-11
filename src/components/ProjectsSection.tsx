@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ExternalLink, ArrowRight } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -6,51 +5,51 @@ import { Button } from '@/components/ui/button';
 
 const projects = [
   {
-    title: "E-commerce Moderno",
-    category: "Loja Virtual",
-    description: "Plataforma completa de vendas online com design responsivo e sistema de pagamento integrado.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-    tech: ["React", "Node.js", "Stripe"],
+    title: "Site para Clínica Médica",
+    category: "Saúde",
+    description: "Site institucional para clínica médica com agendamento online e informações sobre especialidades.",
+    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80",
+    tech: ["Landing Page", "Formulário", "Responsivo"],
     link: "#"
   },
   {
-    title: "Landing Page Corporativa",
-    category: "Institucional",
-    description: "Site institucional elegante para empresa de consultoria com foco em conversão.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-    tech: ["Next.js", "Tailwind", "Analytics"],
+    title: "Site para Consultório Odontológico",
+    category: "Odontologia",
+    description: "Página profissional para dentista com galeria de tratamentos e formulário de contato.",
+    image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80",
+    tech: ["Design Moderno", "SEO", "Mobile First"],
     link: "#"
   },
   {
-    title: "Portal de Serviços",
-    category: "Marketplace",
-    description: "Plataforma para conectar prestadores de serviços com clientes em sua região.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80",
-    tech: ["Vue.js", "Laravel", "MySQL"],
+    title: "Site para Escritório de Advocacia",
+    category: "Jurídico",
+    description: "Site institucional para advogados com áreas de atuação e formulário de consulta.",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80",
+    tech: ["Institucional", "Credibilidade", "Contato"],
     link: "#"
   },
   {
-    title: "Dashboard Analytics",
-    category: "Aplicação Web",
-    description: "Painel de controle avançado para análise de dados e métricas de negócio.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
-    tech: ["React", "D3.js", "API Rest"],
+    title: "Site para Restaurante",
+    category: "Alimentação",
+    description: "Site atrativo para restaurante com cardápio online e informações de localização.",
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+    tech: ["Cardápio Digital", "Localização", "Reservas"],
     link: "#"
   },
   {
-    title: "App Mobile Híbrido",
-    category: "Mobile",
-    description: "Aplicativo multiplataforma para gestão de tarefas e produtividade.",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
-    tech: ["React Native", "Firebase", "Redux"],
+    title: "Site para Salão de Beleza",
+    category: "Estética",
+    description: "Página elegante para salão com galeria de serviços e agendamento online.",
+    image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80",
+    tech: ["Galeria", "Agendamento", "Elegante"],
     link: "#"
   },
   {
-    title: "Sistema ERP",
-    category: "Enterprise",
-    description: "Solução completa para gestão empresarial com módulos integrados.",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
-    tech: ["Angular", "Spring Boot", "PostgreSQL"],
+    title: "Site para Personal Trainer",
+    category: "Fitness",
+    description: "Landing page para personal trainer com planos de treino e depoimentos de clientes.",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+    tech: ["Personal Brand", "Depoimentos", "Conversão"],
     link: "#"
   }
 ];

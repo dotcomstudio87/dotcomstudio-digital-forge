@@ -55,6 +55,10 @@ const Footer = () => {
                 <span className="text-gray-400">contato@dotcomstudio.com</span>
               </li>
               <li className="flex items-center space-x-2">
+                <Instagram className="w-4 h-4 text-cyan-400" />
+                <a href="https://instagram.com/dotcomstudio" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 transition-colors">@dotcomstudio</a>
+              </li>
+              <li className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-cyan-400" />
                 <span className="text-gray-400">São Paulo, SP</span>
               </li>
