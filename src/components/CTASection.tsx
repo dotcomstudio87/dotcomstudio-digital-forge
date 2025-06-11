@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowRight, MessageCircle, Mail, Phone } from 'lucide-react';
+import { ArrowRight, MessageCircle, Mail, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const CTASection = () => {
@@ -51,8 +51,8 @@ const CTASection = () => {
               </div>
               
               <div className="flex items-center justify-center space-x-3 p-4 bg-gray-800/30 rounded-lg border border-gray-700 hover:border-cyan-500/50 transition-colors">
-                <Phone className="w-5 h-5 text-cyan-400" />
-                <span className="text-gray-300">(11) 99999-9999</span>
+                <Instagram className="w-5 h-5 text-cyan-400" />
+                <a href="https://instagram.com/dotcomstudio" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyan-400 transition-colors">@dotcomstudio</a>
               </div>
             </div>
           </div>

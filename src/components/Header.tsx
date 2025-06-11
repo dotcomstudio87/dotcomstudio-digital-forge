@@ -13,7 +13,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/6c98830e-bba2-47cb-bb20-8342df7b6883.png" 
               alt="DotcomStudio Logo" 
-              className="w-10 h-10 object-contain"
+              className="w-10 h-10 object-contain rounded-lg"
             />
             <span className="text-xl font-bold">DotcomStudio</span>
           </div>
