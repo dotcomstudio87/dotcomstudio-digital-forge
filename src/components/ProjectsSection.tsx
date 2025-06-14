@@ -1,7 +1,9 @@
+
 import React from 'react';
 import { ExternalLink, ArrowRight } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+
 const projects = [{
   title: "Site para Clínica Médica",
   category: "Saúde",
@@ -45,8 +47,10 @@ const projects = [{
   tech: ["Personal Brand", "Depoimentos", "Conversão"],
   link: "#"
 }];
+
 const ProjectsSection = () => {
-  return <section id="projects" className="py-20 bg-gradient-to-b from-gray-800 to-gray-900">
+  return (
+    <section id="projects" className="py-20 bg-gradient-to-b from-gray-800 to-gray-900">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-cyan-200 bg-clip-text text-transparent">
@@ -58,7 +62,8 @@ const ProjectsSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {projects.map((project, index) => <Card key={index} className="bg-gray-800/50 border-gray-700 hover:border-cyan-500/50 transition-all duration-300 group overflow-hidden">
+          {projects.map((project, index) => (
+            <Card key={index} className="bg-gray-800/50 border-gray-700 hover:border-cyan-500/50 transition-all duration-300 group overflow-hidden">
               <div className="relative overflow-hidden">
                 <img src={project.image} alt={project.title} className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -81,7 +86,11 @@ const ProjectsSection = () => {
                 </p>
                 
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tech.map((tech, techIndex) => {})}
+                  {project.tech.map((tech, techIndex) => (
+                    <span key={techIndex} className="text-xs bg-cyan-500/20 text-cyan-400 px-2 py-1 rounded-full">
+                      {tech}
+                    </span>
+                  ))}
                 </div>
                 
                 <Button variant="ghost" className="text-cyan-400 hover:text-cyan-300 hover:bg-cyan-500/10 p-0 h-auto font-medium group/btn">
@@ -89,7 +98,8 @@ const ProjectsSection = () => {
                   <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                 </Button>
               </CardContent>
-            </Card>)}
+            </Card>
+          ))}
         </div>
 
         <div className="text-center">
@@ -98,6 +108,8 @@ const ProjectsSection = () => {
           </Button>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default ProjectsSection;

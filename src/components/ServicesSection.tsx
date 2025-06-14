@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Globe, PenTool, Wrench, Smartphone } from 'lucide-react';
+import { Globe, PenTool, BarChart3, Smartphone } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const services = [
@@ -23,10 +23,10 @@ const services = [
     features: ["Mobile-first", "Design adaptável", "Performance otimizada"]
   },
   {
-    icon: Wrench,
-    title: "Manutenção",
-    description: "Suporte técnico contínuo para manter seu site sempre atualizado, seguro e funcionando perfeitamente.",
-    features: ["Backup automático", "Atualizações", "Suporte 24/7"]
+    icon: BarChart3,
+    title: "Trackeamento",
+    description: "Fazemos trackeamento da sua página de forma 100% funcional integrada com a Utmify.",
+    features: ["Integração Utmify", "Métricas detalhadas", "Análise completa"]
   }
 ];
 
